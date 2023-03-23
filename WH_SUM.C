@@ -1,0 +1,23 @@
+// WAP to print 1 to n using while looping
+
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int i=1, n, sum=0;
+clrscr();
+	printf("Enter number :");
+	scanf("%d", &n);
+
+	while(i<=n)
+	{
+	       sum=sum+i;
+	       i++;
+	}
+
+	printf("sum = %d", sum);
+
+getch();
+}

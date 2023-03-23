@@ -1,0 +1,28 @@
+// WAP to find max from 4 using ternary operator
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int a,b,c,d;
+	clrscr();
+	printf("Enter value of a:");
+	scanf("%d",&a);
+	printf("Eneter value of b:");
+	scanf("%d", &b);
+	printf("Eneter value of c:");
+	scanf("%d",&c);
+	printf("Eneter value of d:");
+	scanf("%d",&d);
+
+	(a>b && a>c && a>d) ?
+			     printf("%d is max value"):
+	(b>c && b>d) ?
+			printf("%d is max value",b) :
+
+	(c>d)?
+			printf("%d is max value",c) :
+			printf("%d is max value",d);
+			getch();
+}
+

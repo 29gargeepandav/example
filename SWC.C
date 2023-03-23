@@ -1,0 +1,29 @@
+
+#include<stdio.h>
+
+void main()
+{
+	int a;
+	printf("\npress 1 then order pizza");
+	printf("\npress 2 then order Burger");
+	printf("\npress 3 then order Pasta");
+
+	printf("\nenter your choice :");
+	scanf("%d", &a);
+
+	switch(a)
+	{
+		case 1:
+		printf("you ordered pizza");
+		break;
+		case 2:
+		printf("you ordered Burger");
+		break;
+		case 3:
+		printf("you ordered Pasta");
+		break;
+		default:
+		printf("another value");
+	}
+	getch();
+}

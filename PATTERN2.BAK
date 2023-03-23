@@ -1,0 +1,21 @@
+#include<stdio.h>
+/* create a given pattern using escape sequance
+ - - - - -
+|	 |
+|	 |
+| GARGEE |
+|	 |
+|	 |
+ - - - - -
+*/
+void main()
+{
+printf("\n _ _ _ _ _ \n");
+printf("|\t |\n");
+printf("|\t |\n");
+printf("| GARGEE |\n");
+printf("|\t |\n");
+printf("|\t |\n");
+printf(" _ _ _ _ _ \n");
+getch();
+}

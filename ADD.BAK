@@ -1,0 +1,21 @@
+ #include<stdio.h>
+
+ void main()
+ {
+	int a,b,add, sub, mul, div, mod;
+	printf("\nplease enter value of a:");
+	scanf("%d",&a);
+	printf("\nplease enter value of b:");
+	scanf("%d",&b);
+	add=a+b;
+	printf("\n\naddtion of two value is %d",add);
+	sub=a-b;
+	printf("\n\n subtraction of two value is %d",sub);
+	mul=a*b;
+	printf("\n\n multiplication of two value is %d", mul);
+	div=a/b;
+	printf("\n\n division of two number value is %d",div);
+	mod=a%b;
+	printf("\n\n mode of two number value is %d", mod);
+	getch();
+ }

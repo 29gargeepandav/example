@@ -1,0 +1,14 @@
+//WAP to convert tempreture from degree to celsius to fahrenheit
+
+#include<stdio.h>
+
+void main()
+{
+	float c,f;
+	clrscr();
+	printf("\neneter a value of celsious: ");
+	scanf("%f",&c);
+	f=(c*1.8)+32;
+	printf("fahenhit value is %2.f",f);
+	getch();
+}

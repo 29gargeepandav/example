@@ -1,0 +1,52 @@
+//WAP to find max. from given 4 no usning nested if else
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int a,b,c,d;
+	clrscr();
+	printf("Enter number of a: ");
+	scanf("%d", &a);
+	printf("Enter number of b: ");
+	scanf("%d", &b);
+	printf("Enter number of c: ");
+	scanf("%d", &c);
+	printf("Enter number of d: ");
+	scanf("%d", &d);
+
+	if(a>b)
+	{
+		if(a>c)
+		{
+			if(a>d)
+			{
+			printf("a is max value");
+			}
+			else
+			{
+			printf("d is max number");
+			}
+		}
+	}
+	else if(b>c)
+	{
+		if(b>d)
+		{
+			printf("b id max value");
+		}
+		else
+		{
+			printf("d is max value");
+		}
+	}
+	else if(c>d)
+	{
+		printf("c is max value");
+	}
+	else
+	{
+		printf("d is max value");
+	}
+	getch();
+}
